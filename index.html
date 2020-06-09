@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Секундомер</title>   
+   <link rel="stylesheet" href="./css/style.css">
+   
+   <link href="https://allfont.ru/allfont.css?fonts=a_lcdnova" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body>
+   <div class="wrapper">
+      <div class="main-content style-content">
+
+            <div class="stopwatch">               
+               <span id="minutes" class="minutes font-time">00</span>
+               <span class="sep1 font-time">:</span>
+               <span id="sec" class="sec font-time">00</span>
+               <span class="sep2 font-time">.</span>
+               <span id="ms" class="ms font-time">00</span>
+            </div>
+                     
+         <div class="button">
+            <button id="reset" class="reset">Сброс</button>
+            <button id="start" class="start">Старт</button>
+            <button id="stop" class="stop">Стоп</button>
+         </div>
+
+      </div>
+
+      <div class="check-point style-content">
+
+         <div class="round">
+            <h3>Круг</h3>
+            
+         </div>
+
+         <div class="time-round">
+            <h3>Время</h3>
+            
+         </div>    
+
+      </div>
+   </div>
+   <script src="./js/script.js"></script>
+</body>
+</html>

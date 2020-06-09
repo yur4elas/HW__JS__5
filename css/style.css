@@ -1,0 +1,108 @@
+* {
+   outline: none;
+}
+.wrapper {
+   height: calc(100vh - 60px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 30px;
+   background-color: rgba(214, 212, 212, 0.384);
+}
+.font-time,
+.rem {
+   font-family: "a_LCDNova", arial;
+}
+
+.style-content {
+   padding: 30px;
+   margin: 0 auto;
+   width: 60%;
+   background-color: #fff;
+}
+.main-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.stopwatch {
+}
+
+.minutes,
+.sec {
+   text-align: center;
+
+   width: 90px;
+   display: inline-block;
+   font-size: 72px;
+   letter-spacing: 5px;
+}
+.sep1 {
+   font-size: 72px;
+   letter-spacing: 5px;
+}
+.ms {
+   display: inline-block;
+   width: 48px;
+   font-size: 36px;
+   letter-spacing: 5px;
+}
+.sep2 {
+   font-size: 36px;
+   letter-spacing: 5px;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+.reset,
+.start,
+.stop {
+   margin-top: 15px;
+   width: 90px;
+   height: 40px;
+   font-family: "Roboto", sans-serif;
+   border: none;
+   color: #fff;
+   font-size: 14px;
+}
+.reset {
+   background-color: rgb(255, 196, 0);
+   margin-right: 10px;
+}
+.start {
+   background-color: rgb(4, 168, 4);
+   z-index: 2;
+}
+.stop {
+   background-color: rgb(255, 0, 0);
+   position: absolute;
+   right: 0;
+   z-index: 1;
+}
+.check-point {
+   max-height: 200px;
+   height: 100%;
+   overflow: auto;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+h3 {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+}
+.round {
+   display: flex;
+   flex-direction: column;
+   margin-right: 50px;
+}
+.time-round {
+   display: flex;
+   flex-direction: column;
+}
